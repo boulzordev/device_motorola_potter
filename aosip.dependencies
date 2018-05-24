@@ -10,5 +10,11 @@
     "repository": "boulzordev/android_vendor_motorola_potter",
     "target_path": "vendor/motorola/potter",
     "branch": "lineage-15.1-64"
+  },
+  {
+    "remote": "github",
+    "repository": "PixelExperience/packages_resources_MotoActions",
+    "target_path": "packages/resources/MotoActions",
+    "branch": "oreo-mr1"
   }
 ]
