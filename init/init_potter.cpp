@@ -55,6 +55,13 @@ void property_override_dual(char const system_prop[], char const vendor_prop[],
     property_override(vendor_prop, value);
 }
 
+/* Get Ram size for different variants */
+void target_ram() {
+    std::string ram;
+
+    ram = property_get("ro.boot.ram");
+}
+
 void num_sims() {
     std::string dualsim;
 

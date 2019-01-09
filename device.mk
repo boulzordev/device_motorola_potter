@@ -333,9 +333,13 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     fstab.qcom \
+    fstab2.qcom \
+    fstab3.qcom \
+    fstab4.qcom \
     init.mmi.boot.sh \
     init.mmi.laser.sh \
     init.mmi.rc \
+    init.potter.rc \
     init.mmi.usb.rc \
     init.qcom.rc \
     init.qcom.ril.sh \
